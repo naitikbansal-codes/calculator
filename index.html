@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.8.0/fonts/remixicon.css" rel="stylesheet" />
+    <title>Calculator</title>
+</head>
+<body>
+    
+    <div class="calculator">
+        <div class="display">
+            <input type="text" placeholder="0" readonly>
+        </div>
+        <div class="buttons">
+            <div class="row bracket-row">
+                <button>(</button>
+                <button>)</button>  
+            </div>
+            <div class="row row1">
+                <button>AC</button>
+                <button>DEL</button>
+                <button>%</button>
+                <button>&radic;</button>
+            </div>
+            <div class="row row2">
+                <button>Sin</button>
+                <button>Cos</button>
+                <button>Tan</button>
+                <button style="    color: aquamarine;
+                ">/</button>
+            </div>
+            <div class="row row3">
+                <button>9</button>
+                <button>8</button>
+                <button>7</button>
+                <button style="    color: aquamarine;
+                ">*</button>
+            </div>
+            <div class="row row4">
+                <button>6</button>
+                <button>5</button>
+                <button>4</button>
+                <button style="    color: aquamarine;
+                ">-</button>
+            </div>
+            <div class="row row5">
+                <button>3</button>
+                <button>2</button>
+                <button>1</button>
+                <button style="    color: aquamarine;
+                ">+</button>
+            </div>
+            <div class="row row6">
+                <button>00</button>
+                <button>0</button>
+                <button style="color: aquamarine;
+                "">.</button>
+                <button style="    color: aquamarine;
+                " id="equal">=</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="icon">
+        <i class="ri-history-line"></i>
+        <h5>History</h5>
+    </div>
+
+    <div class="history">
+        <div id="history">
+            <div class="icon2">
+                <i class="ri-close-circle-line"></i>
+                <h5 id="iconh4">Close</h5>
+            </div>
+            <h2> Last 10 History</h2>
+            
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
